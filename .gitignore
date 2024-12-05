@@ -1,1 +1,21 @@
 /.metadata/
+# Ignore everything
+*
+
+# Allow only Java files
+!*.java
+
+# Ignore all directories
+*/
+
+# Allow Java files in subdirectories
+!*/**
+
+# Ignore Eclipse-specific files
+.classpath
+.project
+.settings/
+
+# Ignore compiled and build folders
+bin/
+target/
