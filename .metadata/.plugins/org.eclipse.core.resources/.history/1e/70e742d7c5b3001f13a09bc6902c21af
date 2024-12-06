@@ -1,0 +1,18 @@
+package com.tka.strings;
+
+import java.util.Scanner;
+
+public class PString1 {
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Your name");
+//		Next will take only one word
+//		String name = sc.next();
+//		More than one line
+		String name=sc.nextLine();
+
+		System.out.println(name);
+
+	}
+}

@@ -1,0 +1,13 @@
+package com.tka.strings;
+
+import java.util.Scanner;
+
+public class PString1 {
+	public static void main(String[] args) {
+
+		String name = "Ajay";
+		char chara=name.charAt(0);
+		System.out.println(chara);
+
+	}
+}

@@ -1,0 +1,14 @@
+package com.tka.strings;
+
+import java.util.Scanner;
+
+public class PString1 {
+	public static void main(String[] args) {
+
+		String name = "Ajay";
+		String surname = "Mali";
+		String fullname = name +" "+ surname;
+		System.out.println(fullname);
+
+	}
+}
