@@ -1,1 +1,15 @@
 /bin/
+# Ignore all files
+*
+
+# Allow only Java files
+!*.java
+
+# Ignore Eclipse specific files and directories
+.metadata/
+*.classpath
+*.project
+.settings/
+bin/
+target/
+build/
