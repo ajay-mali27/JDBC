@@ -1,0 +1,11 @@
+package com.tka.strings;
+
+public class Temp {
+	public static void main(String[] args) {
+	
+		String name="Ajay";
+		
+		int length=name.length();
+		System.out.println(length);
+	}
+}

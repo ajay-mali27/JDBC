@@ -1,0 +1,7 @@
+package com.tka.jdbc;
+
+public class P3_SQLQueries {
+public static void main(String[] args) {
+	
+}
+}

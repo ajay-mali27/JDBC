@@ -1,0 +1,16 @@
+# Eclipse specific files
+/.metadata/
+/*.tmp
+/*.bak
+/*.swp
+*~.nib
+local.properties
+.settings/
+.project
+.classpath
+
+# Ignore Maven specific files
+target/
+
+# Ignore temporary files
+*.log
