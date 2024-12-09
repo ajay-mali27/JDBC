@@ -6,3 +6,4 @@
 *.class
 .metadata/.plugins/org.eclipse.core.resources/.projects/JDBC/.indexes/e4/81/ca/fb/history.index
 /.metadata
+.metadata/.log
