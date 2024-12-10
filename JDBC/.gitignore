@@ -1,1 +1,7 @@
 /bin/
+
+# Ignore Eclipse metadata directory
+.metadata/
+
+# Ignore all compiled Java class files
+*.class
