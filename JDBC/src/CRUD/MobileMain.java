@@ -21,5 +21,8 @@ public class MobileMain {
 		Mobile.ReadData(connection);
 //	4.Delete Records
 		Mobile.DeleteRecord(connection);
+
+		connection.close();
+
 	}
 }

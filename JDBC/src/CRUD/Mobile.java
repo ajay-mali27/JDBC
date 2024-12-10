@@ -58,7 +58,9 @@ public class Mobile {
 
 		statement.executeUpdate(DeleteQuery);
 		System.out.println("Data has been deleted");
-
+		
+		statement.close();
+		
 	}
 
 }
