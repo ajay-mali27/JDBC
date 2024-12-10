@@ -7,3 +7,9 @@
 .metadata/.plugins/org.eclipse.core.resources/.projects/JDBC/.indexes/e4/81/ca/fb/history.index
 /.metadata
 .metadata/.log
+
+# Ignore Eclipse metadata directory
+.metadata/
+
+# Ignore all compiled Java class files
+*.class
