@@ -13,3 +13,5 @@
 
 # Ignore all compiled Java class files
 *.class
+
+.metadata/
