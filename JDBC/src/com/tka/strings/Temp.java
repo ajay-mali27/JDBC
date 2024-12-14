@@ -1,37 +1,19 @@
 package com.tka.strings;
 
+import java.util.Scanner;
+
 public class Temp {
 	public static void main(String[] args) {
 
-		String name = "Ajay";
+		String name1 = "Apurva";
 
-//		1. String Length
+		String substr = name1.substring(0, 3);
+		System.out.println(substr);
 
-//		int length = name.length();
-//		System.out.println(length);
+		String name2 = "PurviAjay";
 
-//		2. Print the characters
+		String sub = name2.substring(0, 5);
+		System.out.println(sub);
 
-//		for (int i = 0; i < name.length(); i++) {
-//			System.out.println(name.charAt(i));
-//		}
-
-//		3. CompareTo 
-//
-//		String boy = "AJAY";
-//		String girl = "Shijuka";
-//
-//		if (boy.compareTo(girl) == 0) {
-//			System.out.println("They are Equal");
-//		} else if (boy.compareTo(girl) > 0) {
-//			System.out.println("Sam is Greater");
-//		} else if (boy.compareTo(girl) < 0) {
-//			System.out.println("Girl is Greater");
-//		}
-		
-//		4. Substring
-		
-		String object="Refrigerator";
-		System.out.println(object.substring(2,7));
 	}
 }
