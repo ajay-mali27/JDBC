@@ -7,9 +7,11 @@ public class LinkedHashSetP1 {
 
 		LinkedHashSet<Integer> LK = new LinkedHashSet<>();
 		LK.add(78);
+		LK.add(78);
 		LK.add(45);
 		LK.add(21);
 		LK.add(7);
 		System.out.println(LK);
+
 	}
 }
