@@ -29,5 +29,7 @@ public class ArrayListProg {
 //		System.out.println(Collections.min(AL));
 		Collections.reverse(AL);
 		System.out.println(AL);
+		
+	System.out.println(	AL.get(2));
 	}
 }
