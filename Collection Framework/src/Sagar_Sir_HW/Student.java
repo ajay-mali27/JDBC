@@ -12,7 +12,7 @@ public class Student {
 
 		studInfo1.setStudName("Pallavi");
 		studInfo1.setSub("Math");
-		studInfo1.setStudeMarks(69);
+		studInfo1.setStudeMarks(19);
 
 		StudentPOJO studInfo2 = new StudentPOJO();
 
@@ -34,10 +34,13 @@ public class Student {
 		AL.add(studInfo3);
 
 		ArrayList<String> studName = new ArrayList<>();
+
 		for (StudentPOJO studentPOJO : AL) {
 
-			String name = studentPOJO.getStudName();
-			studName.add(name);
+			if (studentPOJO.getStudeMarks() > 60) {
+				String name = studentPOJO.getStudName();
+				studName.add(name);
+			}
 		}
 
 		return studName;
