@@ -4,33 +4,30 @@ import java.util.ArrayList;
 
 public class Empmain {
 
-	ArrayList<Employee> employeeData() {
-		
+	ArrayList<String> m1() {
+
+		ArrayList<Employee> AL = new ArrayList<Employee>();
 		Employee e1 = new Employee();
-		
 		e1.setEmpID(1);
-		e1.setEmpName("John");
-		e1.setEmpSal(6600);
+		e1.setEmpName("AJAY");
+		e1.setEmpSal(150);
 
 		Employee e2 = new Employee();
 		e2.setEmpID(2);
-		e2.setEmpName("Sam Altman");
-		e2.setEmpSal(5854);
-
-		Employee e3 = new Employee();
-		e3.setEmpID(3);
-		e3.setEmpName("Harry");
-		e3.setEmpSal(56975);
-
-		ArrayList<Employee> AL = new ArrayList<Employee>();
+		e2.setEmpName("Rahul");
+		e2.setEmpSal(562);
 
 		AL.add(e1);
 		AL.add(e2);
-		AL.add(e3);
 
-		
-		return AL;
+		ArrayList<String> AddempNameInAList = new ArrayList<String>();
+
+		for (Employee employee : AL) {
+			String name = employee.getEmpName();
+			AddempNameInAList.add(name);
+		}
+
+		return AddempNameInAList;
 	}
 
-	
 }

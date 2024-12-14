@@ -7,17 +7,8 @@ public class EmpCall {
 
 		Empmain emp = new Empmain();
 
-		ArrayList<Employee> alll = emp.employeeData();
+		ArrayList<String> AL = emp.m1();
+		System.out.println(AL);
 
-		System.out.println(alll);
-
-		for (Object object : alll) {
-			System.out.println(object);
-		}
-
-
-
-		
-		
 	}
 }
